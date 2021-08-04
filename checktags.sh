@@ -9,3 +9,7 @@ echo -n "https://github.com/red-hat-data-services/s2i-base-container: " && git l
 echo -n "https://github.com/red-hat-data-services/jupyterhub-quickstart: " && git ls-remote --tags https://github.com/red-hat-data-services/jupyterhub-quickstart | grep $1 || echo "TAG NOT PRESENT"
 echo -n "https://github.com/red-hat-data-services/jupyterhub-singleuser-profiles: " && git ls-remote --tags https://github.com/red-hat-data-services/jupyterhub-singleuser-profiles | grep $1 || echo "TAG NOT PRESENT"
 echo -n "https://github.com/red-hat-data-services/jupyterhub-odh: " && git ls-remote --tags https://github.com/red-hat-data-services/jupyterhub-odh | grep $1 || echo "TAG NOT PRESENT"
+echo -n "https://github.com/red-hat-data-services/traefik: " && git ls-remote --tags https://github.com/red-hat-data-services/traefik | grep $1 || echo "TAG NOT PRESENT"
+echo -n "https://github.com/red-hat-data-services/traefik-proxy: " && git ls-remote --tags https://github.com/red-hat-data-services/traefik-proxy | grep $1 || echo "TAG NOT PRESENT"
+echo -n "https://github.com/red-hat-data-services/odh-images: " && git ls-remote --tags https://github.com/red-hat-data-services/odh-images | grep $1 || echo "TAG NOT PRESENT"
+
